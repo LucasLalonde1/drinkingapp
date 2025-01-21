@@ -8,3 +8,29 @@ npm install @reduxjs/toolkit react-redux react-native-websockets
 // Backend
 npm init -y
 npm install express socket.io jsonwebtoken bcryptjs mongoose cors
+
+
+Technology	    Purpose	    Tools/Frameworks	Reason for Choice
+
+
+Frontend	    Mobile app UI and logic	    React Native with Expo framework	    Cross-platform development for iOS and Android with a single codebase.
+
+Frontend Library	State management    	Redux Toolkit	    Efficient and scalable state management.
+
+UI Styling	    Component styling	    React Native Styled Components	    Easy-to-read and dynamic styling within components.
+
+Backend	Server-side logic and API handling	    Node.js with Express.js 	Lightweight, efficient server framework for handling routes, WebSockets, and APIs.
+
+Authentication	    User login, registration, and session management	jsonwebtoken, bcrypt.js	    Secure JWT-based authentication and password hashing.
+
+Real-Time Updates	WebSockets for game state syncing	Socket.io	Bi-directional real-time communication for room-based games.
+
+Database	Data storage (users, rooms, game state)	NoSQL Database	SQL for horizontally scalable data (rooms, users, votes).  Chosen over SQL for scalability 
+
+Room Management	Custom logic for room creation and joining	Custom API	Handles dynamic room creation and user participation logic.
+
+WebSocket Client	Real-time updates in the mobile app	React Native WebSockets 	Native WebSocket implementation for real-time communication with the backend.
+
+Development Tools	Code editor and version control	    Visual Studio Code, GitHub  	VS Code for coding, GitHub for version control and collaboration.
+
+CLI Tool	    Project management and build tool   	Expo (SDK 52)   	Simplified development environment for React Native with built-in features.
