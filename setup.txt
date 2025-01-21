@@ -1,0 +1,10 @@
+// Frontend
+npx create-expo-app@latest frontend
+cd frontend
+npm run reset-project
+npm install @reduxjs/toolkit react-redux react-native-websockets
+
+
+// Backend
+npm init -y
+npm install express socket.io jsonwebtoken bcryptjs mongoose cors
