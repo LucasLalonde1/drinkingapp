@@ -2,6 +2,15 @@
   "expo": {
     "name": "frontend",
     "slug": "frontend",
+    "extra": {
+      "FIREBASE_API_KEY": "your-api-key",
+      "FIREBASE_AUTH_DOMAIN": "your-auth-domain",
+      "FIREBASE_DATABASE_URL": "your-database-url",
+      "FIREBASE_PROJECT_ID": "your-project-id",
+      "FIREBASE_STORAGE_BUCKET": "your-storage-bucket",
+      "FIREBASE_MESSAGING_SENDER_ID": "your-sender-id",
+      "FIREBASE_APP_ID": "your-app-id"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
